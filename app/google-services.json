@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "593684795639",
+    "firebase_url": "https://ngelabkampus-9a167.firebaseio.com",
+    "project_id": "ngelabkampus-9a167",
+    "storage_bucket": "ngelabkampus-9a167.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593684795639:android:5bdcc6df014420327f43f2",
+        "android_client_info": {
+          "package_name": "com.nusantarian.ngelabpremiumchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593684795639-up0ivq7ia1bfindjfsu8k9rcmlsah4cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHKnpz1A7MUBgKgMD9Mo9casX4mMsX2ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593684795639-up0ivq7ia1bfindjfsu8k9rcmlsah4cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
