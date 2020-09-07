@@ -2,4 +2,23 @@
     <string name="app_name">NgelabPremiumChat</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Auth Fragment String-->
+    <string name="til_email">Email Address</string>
+    <string name="til_password">Password</string>
+    <string name="til_forgot_password">Forgot Password?</string>
+    <string name="btn_login">Login</string>
+    <string name="til_name">Full Name</string>
+    <string name="til_phone">Phone Number</string>
+    <string name="til_school">School Name</string>
+    <string name="til_confirm_password">Confirm Password</string>
+    <string name="btn_register">Register</string>
+    <!--Text Message String-->
+    <string name="text_empty_field">This Field is Empty</string>
+    <string name="text_invalid_email">Invalid Email Address</string>
+    <string name="text_failed_login">Failed Login Your Account</string>
+    <string name="text_pass_didnt_match">Password Didn\'t Match</string>
+    <string name="text_failed_register">Failed Register Your Account</string>
+    <string name="text_please_login">Please Login to Your Account</string>
+    <string name="text_under_construction">Under Construction, Coming Soon</string>
+    <string name="btn_sign_out">Sign Out</string>
 </resources>

@@ -1,10 +1,13 @@
 package com.nusantarian.ngelabpremiumchat.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Window
+import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import com.nusantarian.ngelabpremiumchat.R
 import com.nusantarian.ngelabpremiumchat.databinding.ActivityAuthBinding
+import com.nusantarian.ngelabpremiumchat.fragment.LoginFragment
 
 class AuthActivity : AppCompatActivity(), FragmentManager.OnBackStackChangedListener {
 
@@ -13,9 +16,22 @@ class AuthActivity : AppCompatActivity(), FragmentManager.OnBackStackChangedList
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAuthBinding.inflate(layoutInflater)
+        //hide status bar
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        )
         setContentView(binding.root)
 
         supportFragmentManager.addOnBackStackChangedListener(this)
+        initMainFragment()
+    }
+
+    private fun initMainFragment() {
+        supportFragmentManager.beginTransaction()
+            .add(R.id.frame_auth, LoginFragment())
+            .commit()
     }
 
     override fun onBackStackChanged() {
