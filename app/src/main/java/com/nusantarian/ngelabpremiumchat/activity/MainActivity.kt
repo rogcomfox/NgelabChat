@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import com.nusantarian.ngelabpremiumchat.R
 import com.nusantarian.ngelabpremiumchat.databinding.ActivityMainBinding
+import com.nusantarian.ngelabpremiumchat.fragment.MainFragment
 
 class MainActivity : AppCompatActivity(), FragmentManager.OnBackStackChangedListener {
 

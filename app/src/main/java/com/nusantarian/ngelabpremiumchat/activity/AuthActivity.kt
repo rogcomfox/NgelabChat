@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import com.nusantarian.ngelabpremiumchat.R
 import com.nusantarian.ngelabpremiumchat.databinding.ActivityAuthBinding
+import com.nusantarian.ngelabpremiumchat.fragment.LandingFragment
 import com.nusantarian.ngelabpremiumchat.fragment.LoginFragment
 
 class AuthActivity : AppCompatActivity(), FragmentManager.OnBackStackChangedListener {
@@ -30,7 +31,7 @@ class AuthActivity : AppCompatActivity(), FragmentManager.OnBackStackChangedList
 
     private fun initMainFragment() {
         supportFragmentManager.beginTransaction()
-            .add(R.id.frame_auth, LoginFragment())
+            .add(R.id.frame_auth, LandingFragment())
             .commit()
     }
 
