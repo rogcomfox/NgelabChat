@@ -18,6 +18,7 @@
     <string name="tv_success_sent_reset">Password Reset \nEmail Sent</string>
     <string name="tv_info_email">We sent instruction to pick a new password to</string>
     <string name="tv_resend_password">Didn\'t get the email? Tap here to resend it</string>
+    <string name="tv_sign_up">Don\'t Have Account? Sign Up</string>
     <!--Text Message String-->
     <string name="text_empty_field">This Field is Empty</string>
     <string name="text_invalid_email">Invalid Email Address</string>
@@ -31,14 +32,10 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="action_sign_out">Sign Out</string>
-
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="tv_sign_up">Don\'t Have Account? Sign Up</string>
+    <string name="nav_edit_profile">Edit Profile</string>
+    <string name="nav_my_contacts">My Contacts</string>
+    <string name="nav_help">Help</string>
 </resources>
