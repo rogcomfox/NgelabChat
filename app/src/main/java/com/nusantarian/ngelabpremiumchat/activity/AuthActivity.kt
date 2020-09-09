@@ -8,7 +8,6 @@ import androidx.fragment.app.FragmentManager
 import com.nusantarian.ngelabpremiumchat.R
 import com.nusantarian.ngelabpremiumchat.databinding.ActivityAuthBinding
 import com.nusantarian.ngelabpremiumchat.fragment.LandingFragment
-import com.nusantarian.ngelabpremiumchat.fragment.LoginFragment
 
 class AuthActivity : AppCompatActivity(), FragmentManager.OnBackStackChangedListener {
 

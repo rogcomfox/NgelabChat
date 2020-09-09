@@ -30,7 +30,6 @@ class LoginFragment : Fragment(), View.OnClickListener {
         auth = FirebaseAuth.getInstance()
         ft = activity?.supportFragmentManager?.beginTransaction()!!
         binding.btnLogin.setOnClickListener(this)
-        binding.btnRegister.setOnClickListener(this)
         binding.tvForgotPassword.setOnClickListener(this)
         return binding.root
     }

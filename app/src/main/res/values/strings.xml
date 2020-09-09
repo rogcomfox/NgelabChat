@@ -12,6 +12,12 @@
     <string name="til_school">School Name</string>
     <string name="til_confirm_password">Confirm Password</string>
     <string name="btn_register">Register</string>
+    <string name="tv_forgot_password">Forgot \nPassword?</string>
+    <string name="tv_info_reset_password">Enter your email address and we\'ll send a link to reset your password</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="tv_success_sent_reset">Password Reset \nEmail Sent</string>
+    <string name="tv_info_email">We sent instruction to pick a new password to</string>
+    <string name="tv_resend_password">Didn\'t get the email? Tap here to resend it</string>
     <!--Text Message String-->
     <string name="text_empty_field">This Field is Empty</string>
     <string name="text_invalid_email">Invalid Email Address</string>
@@ -20,5 +26,18 @@
     <string name="text_failed_register">Failed Register Your Account</string>
     <string name="text_please_login">Please Login to Your Account</string>
     <string name="text_under_construction">Under Construction, Coming Soon</string>
+    <string name="text_failed_sent_reset">Failed sent reset password to your email</string>
+    <!--Main Menu String-->
     <string name="btn_sign_out">Sign Out</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>

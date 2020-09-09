@@ -1,71 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment.ForgotPassFragment">
+    tools:context=".fragment.ConfirmResetFragment">
 
     <TextView
-        android:id="@+id/tv_forgot_password"
+        android:id="@+id/tv_success_sent_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/noto_sans"
-        android:text="@string/tv_forgot_password"
+        android:text="@string/tv_success_sent_reset"
         android:textColor="@android:color/black"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_info_reset_password"
+        android:id="@+id/tv_info_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/tv_info_reset_password"
         android:fontFamily="@font/roboto"
+        android:text="@string/tv_info_email"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_forgot_password"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/tv_success_sent_reset" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_email"
+    <TextView
+        android:id="@+id/tv_resend_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="16dp"
-        android:hint="@string/til_email"
-        app:errorEnabled="true"
+        android:fontFamily="@font/roboto"
+        android:text="@string/tv_resend_password"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_info_reset_password">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto"
-            android:inputType="textEmailAddress" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_reset_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="16dp"
-        android:fontFamily="@font/noto_sans"
-        android:padding="15dp"
-        android:text="@string/btn_reset_password"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_email" />
+        app:layout_constraintTop_toBottomOf="@id/tv_info_email" />
 
     <ProgressBar
         android:id="@+id/progress"
